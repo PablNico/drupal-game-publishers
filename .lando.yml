@@ -1,0 +1,4 @@
+name: game-publisher
+recipe: drupal8
+config:
+  webroot: .
