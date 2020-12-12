@@ -1,0 +1,44 @@
+[[preface-audience]]
+
+=== Zielgruppe und Zielsetzung
+
+[role="summary"]
+Verstehen der Zielgruppe dieses Leitfadens und was sie daraus lernen können
+es.
+
+Dieser Leitfaden wurde hauptsächlich für Personen mit minimalen Kenntnissen über die Drupal
+Inhaltsverwaltungssystem. Die Themen werden ihnen helfen, sich zu qualifizieren in
+Installieren, Verwalten, Aufbauen einer Website und/oder Warten des Inhalts einer
+Drupal-basierte Website. Der Leitfaden richtet sich auch an Personen, die bereits einige
+Erfahrung mit einer aktuellen oder früheren Version von Drupal und wollen die
+ihre Fähigkeiten und Kenntnisse zu erweitern oder sie auf den neuesten Stand zu bringen.
+
+Dieser Leitfaden geht davon aus, dass Sie sich bereits entschieden haben, dass Sie Folgendes lernen und anwenden möchten
+Drupal. Wenn Sie mehr erfahren müssen, bevor Sie sich entscheiden, siehe
+<<understanding-drupal>>.
+
+Je nachdem, welche Aspekte von Drupal Sie lernen möchten, benötigen Sie einige
+Hintergrundwissen zum Verständnis dieses Leitfadens: allgemeine Internetkenntnisse und
+Kenntnisse werden vorausgesetzt, und der Leitfaden konzentriert sich auf die Verwendung der Software
+selbst. Zum Beispiel die Abschnitte über die Installation von Drupal auf einem Webserver
+Gehen Sie davon aus, dass Sie Web-Hosting erhalten können und finden Sie heraus, wie Sie Dateien auf Ihre
+gewählter Webhost. In ähnlicher Weise gehen die Abschnitte über Content Management davon aus, dass Sie
+loggen Sie sich auf einer Website ein und füllen Sie ein webbasiertes Formular aus.
+
+Nachdem Sie diesen Leitfaden gelesen haben, sollten Sie dazu in der Lage sein:
+
+* Planen Sie die Inhaltsarchitektur für eine Drupal-basierte Website
+
+* Bauen Sie die Website, die Sie geplant haben
+
+* Verwalten und administrieren Sie Ihre Website
+
+* Dokumentation und Blog-Einträge zu hier nicht behandelten Themen verstehen, um
+Ihr Wissen und Ihre Fähigkeiten zu erweitern
+
+* Verbinden Sie sich mit der weltweiten Drupal-Gemeinschaft
+
+
+*Mitwirkende*
+
+Geschrieben von https://www.drupal.org/u/jhodgdon[Jennifer Hodgdon].

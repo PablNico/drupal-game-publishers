@@ -1,0 +1,250 @@
+[[user_guide]]
+= Drupal 8 Посібник користувача
+
+// Розділи визначені тут, кожен з них складається
+// окремих файлів тем, щоб виводити їх в потрібному порядку.
+
+
+[[preface]]
+
+== Вступ
+
+[role="summary"]
+Огляд вступних тем, що допоможуть зробити читання цього посібника більш ефективним.
+
+include::copyright.txt[]
+include::preface-audience.txt[]
+include::preface-organization.txt[]
+include::preface-reporting.txt[]
+include::preface-conventions.txt[]
+include::preface-scenario.txt[]
+
+
+[[understanding-chapter]]
+== Порозуміння з Drupal-ом
+
+[role="summary"]
+Огляд основних концепцій Drupal на зразок модулів, тем, дистрибутивів та типів даних.
+
+include::understanding-drupal.txt[]
+include::understanding-modules.txt[]
+include::understanding-themes.txt[]
+include::understanding-distributions.txt[]
+include::understanding-data.txt[]
+include::understanding-project.txt[]
+include::understanding-gpl.txt[]
+
+
+[[planning-chapter]]
+== Планування сайту
+
+[role="summary"]
+Огляд концепцій планування сайтів та подробиць основних способів використання макета сайту. Розглянуті поняття сутності матеріалів та структури.
+
+include::block-regions.txt[]
+include::planning-layout.txt[]
+include::planning-data-types.txt[]
+include::planning-modular.txt[]
+include::planning-structure.txt[]
+include::planning-workflow.txt[]
+
+
+[[installation-chapter]]
+== Встановлення
+
+[role="summary"]
+Огляд вимог до сервера та подробиці поширених способів установки
+
+include::install-requirements.txt[]
+include::install-tools.txt[]
+include::install-decide.txt[]
+include::install-prepare.txt[]
+include::install-composer.txt[]
+include::install-manual.txt[]
+include::install-run.txt[]
+
+
+[[config-chapter]]
+== Основні налаштування сайту
+
+[role="summary"]
+Огляд концепцій основних налаштувань сайту. Розглянуто способи встановлення модулів та тем, налаштувань облікових записів.
+
+include::config-overview.txt[]
+include::config-basic.txt[]
+include::config-install.txt[]
+include::config-uninstall.txt[]
+include::config-user.txt[]
+include::config-theme.txt[]
+
+
+
+[[content-chapter]]
+== Основи керування сторінками
+
+[role="summary"]
+Огляд концепцій керування сторінками. Розглянуто способи використання матеріалів, редагування на місці та меню.
+
+include::content-paths.txt[]
+include::content-create.txt[]
+include::content-edit.txt[]
+include::content-in-place-edit.txt[]
+include::menu-home.txt[]
+include::menu-concept.txt[]
+include::menu-link-from-content.txt[]
+include::menu-reorder.txt[]
+
+[[content-structure-chapter]]
+== Налаштування структури матеріалів
+
+[role="summary"]
+Огляд концепцій структури матеріалів. Розглянуто способи використання типів матеріалів, таксономій та полів посилань.
+
+include::structure-content-type.txt[]
+include::structure-content-type-delete.txt[]
+include::structure-fields.txt[]
+include::structure-reference-fields.txt[]
+include::structure-taxonomy.txt[]
+include::structure-taxonomy-setup.txt[]
+include::structure-adding-reference.txt[]
+include::structure-widgets.txt[]
+include::structure-form-editing.txt[]
+include::structure-view-modes.txt[]
+include::structure-content-display.txt[]
+include::structure-image-styles.txt[]
+include::structure-image-style-create.txt[]
+include::structure-image-responsive.txt[]
+include::structure-text-formats.txt[]
+include::structure-text-format-config.txt[]
+
+// The following topic has been deferred, so remove the include for now.
+// @todo Put this link back in when/if the topic gets added back.
+// include::structure-pathauto.txt[]
+
+
+[[user-chapter]]
+== Керування обліковими записами користувачів
+
+[role="summary"]
+Огляд основних концепцій облікових записів користувачів та подробиць основних способів їх використання.
+
+include::user-concept.txt[]
+include::user-admin-account.txt[]
+include::user-new-role.txt[]
+include::user-new-user.txt[]
+include::user-permissions.txt[]
+include::user-roles.txt[]
+include::user-content.txt[]
+
+
+[[blocks-chapter]]
+== Блоки
+
+[role="summary"]
+Огляд основних концепцій блоків та подробиць основних способів їх використання.
+
+include::block-concept.txt[]
+include::block-create-custom.txt[]
+include::block-place.txt[]
+
+
+[[views-chapter]]
+== Створення списків за допомогою видів
+
+[role="summary"]
+Огляд основних концепцій видів та подробиць основних способів їх використання.
+
+include::views-concept.txt[]
+include::views-parts.txt[]
+include::views-create.txt[]
+include::views-duplicate.txt[]
+include::views-block.txt[]
+
+
+[[multilingual-chapter]]
+== Багатомовність
+
+[role="summary"]
+Огляд концепцій багатомовності сайту та подробиць способу увімкнення багатомовності на сайті.
+
+include::language-concept.txt[]
+include::language-add.txt[]
+include::language-content-config.txt[]
+include::language-content-translate.txt[]
+include::language-config-translate.txt[]
+
+
+[[extend-chapter]]
+== Розширення та персоналізація сайту
+
+[role="summary"]
+Огляд персоналізації та розробки сайту. Розглянуто основні способи завантаження модулів та тем.
+
+include::extend-module-find.txt[]
+include::extend-maintenance.txt[]
+include::extend-module-install.txt[]
+include::extend-theme-find.txt[]
+include::extend-theme-install.txt[]
+include::extend-manual-install.txt[]
+include::install-dev-sites.txt[]
+include::install-dev-making.txt[]
+include::extend-deploy.txt[]
+include::extend-config-versions.txt[]
+include::extend-git.txt[]
+
+
+[[prevent-chapter]]
+== Запобігання помилок та їх виправлення
+
+[role="summary"]
+Огляд концепцій кешування, резервних копій даних та журналювання. Розглянуто основні способи очищення кешу.
+
+include::prevent-cache.txt[]
+include::prevent-cache-clear.txt[]
+include::prevent-backups.txt[]
+include::prevent-log.txt[]
+include::prevent-status.txt[]
+
+
+[[security-chapter]]
+== Безпека та підтримка
+
+[role="summary"]
+Огляд концпецій безпеки та підтримки. Розглянуто основні способи оновлення ядра, модулів та тем.
+
+include::security-cron-concept.txt[]
+include::security-cron.txt[]
+include::security-concept.txt[]
+include::security-announce.txt[]
+include::security-update-core.txt[]
+include::security-update-module.txt[]
+include::security-update-theme.txt[]
+
+
+[[thoughts-chapter]]
+== Прикінцеві думки
+
+[role="summary"]
+Огляд спільноти Drupal та способів зв'язку з іншими користувачами.
+
+include::thoughts-connecting.txt[]
+include::thoughts-support.txt[]
+include::thoughts-learn-more.txt[]
+
+
+// Глосарій та предметний покажчик.
+
+include::glossary.txt[]
+
+== Предметний покажчик
+
+// Додаток
+
+[[appendix]]
+[appendix]
+== Додаток
+
+[role="summary"]
+Автори цього посібника.
+
+include::attributions.txt[]

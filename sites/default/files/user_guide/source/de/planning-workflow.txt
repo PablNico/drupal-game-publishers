@@ -1,0 +1,65 @@
+[[planning-workflow]]
+
+=== Konzept: Redaktioneller Workflow
+
+[role="summary"]
+Überblick über den redaktionellen Workflow zur Verwaltung von Inhalten auf einer Website.
+
+(((Editorial Workflow,overview)))
+(((Published flag,overview)))
+(((Unpublished flag,overview)))
+(((Revision,overview)))
+
+==== Vorrausgesetztes Wissen
+
+* <<understanding-drupal>>
+* <<planning-data-types>>
+
+==== Was ist ein redaktioneller Arbeitsablauf?
+
+Ein _Redaktions-Workflow_ ist der Prozess, den Organisationen zur Erstellung und Überprüfung befolgen,
+Inhalte bearbeiten und veröffentlichen. Mehrere Personen in verschiedenen Rollen in der
+Organisation kann Teil des Prozesses sein. Die Ersteller von Inhalten könnten zum Beispiel
+Informationen sammeln und Inhalte verfassen; Redakteure könnten Informationen überprüfen, bearbeiten, nach
+Änderungen, und veröffentlichen Sie den Inhalt, sobald er bereit ist, mit der
+Publikum. Später könnten inhaltliche Überarbeitungen einen einfachen Prozess durchlaufen für
+kleine Änderungen oder ein komplexerer Prozess mit Überprüfungen bei größeren Änderungen.
+
+==== Welche Werkzeuge stehen für die Verwaltung von Workflows zur Verfügung?
+
+Veröffentlichter/unveröffentlichter Status::
+  Der Entitätstyp Inhaltselement unterstützt die Kennzeichnung jedes Inhaltselements entweder als
+  Veröffentlicht oder unveröffentlicht. Anzeigeberechtigungen sind getrennt für veröffentlichte und
+  unveröffentlichte Inhalte; zum Beispiel könnten alle Besucher der Website in der Lage sein
+  veröffentlichte Inhaltselemente, während nur Inhaltsersteller und Redakteure sehen können
+  unveröffentlichte Inhaltselemente.
+Verfolgung der Revision::
+  Einige Inhalts-Entitätstypen unterstützen die Revisionsverfolgung, d.h. als Inhalt
+  überarbeitet wird, speichert die Software die älteren Revisionen, so dass sie
+  verglichen oder rückgängig gemacht.
+Arbeitsabläufe::
+  Im Kernmodul Workflows können Sie Workflow-Zustände und Übergänge definieren,
+  über das bloße Veröffentlichen oder Nichtveröffentlichen von Inhalten hinaus. Der begleitende Kern
+  Mit dem Modul Content Moderation können Sie Berechtigungen und Rollen zuweisen
+  Workflow-Übergänge. Beide können sowohl mit dem Inhaltselement als auch mit dem benutzerdefinierten Block verwendet werden.
+  Entitätstypen.
+Block-Platzierung::
+  Mit der Inhaltsentität Benutzerdefinierter Block können Sie einen benutzerdefinierten Block erstellen und bearbeiten,
+  aber machen Sie sie erst auf der Website sichtbar, wenn sie fertig ist.
+
+==== Verwandte Themen
+
+
+* <<content-create>>
+* <<content-edit>>
+* <<block-create-custom>>
+* <<block-place>>
+
+// ==== Weiterführende Quellen
+
+*Mitwirkende*
+
+Geschrieben und herausgegeben von https://www.drupal.org/u/dianalakatos[Diána Lakatos] unter
+https://pronovix.com//[Pronovix],
+https://www.drupal.org/u/gdunham[Grant Dunham],
+und https://www.drupal.org/u/jhodgdon[Jennifer Hodgdon].

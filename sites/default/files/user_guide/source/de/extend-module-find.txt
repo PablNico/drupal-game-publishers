@@ -1,0 +1,130 @@
+[[extend-module-find]]
+
+=== Module finden
+
+[role="summary"]
+Module auf Drupal.org Suchen und evaluieren.
+
+(((Module,finding)))
+(((Module,evaluating)))
+(((Contributed module,finding)))
+(((Contributed module,evaluating)))
+(((Drupal.org website,finding and evaluating modules on)))
+
+Zielsetzung
+
+Finden und bewerten Sie Module auf _Drupal.org_.
+
+==== Erforderliche Vorkenntnisse
+
+* <<understanding-drupal>>
+* <<understanding-modules>>
+
+//==== Anforderungen an die Website
+
+==== Arbeitsschritte
+
+. Rufen Sie die Website https://www.drupal.org[_Drupal.org_] auf und navigieren Sie
+auf die Seite _Download & Extend_ > _Modules_
+(https://www.drupal.org/project/project_module).
+
+. Filtern Sie Ihre Suche mit Hilfe der Kategorien auf der Modulsuchseite.
+Füllen Sie die Felder wie unten dargestellt aus.
++
+[width="100%",frame="topbot",options="header"]
+|================================
+|Field name |Explanation |Example value
+|Maintenance status |How actively should the module be maintained? | Actively maintained
+|Development status |What kind of development should the module undergo?| Any
+|Module categories |The module's topic area.|Administration
+|Core compatibility |The version of the core software the module is compatible with.|8.x
+|Status |Project status: _Sandbox projects_ are experimental projects. _Full projects_ have
+ already gone through an approval process, but they can still be in development. |Full projects
+|Stability | Whether or not the project maintainer has created a production-ready version.
+ |Has a supported stable release
+|Security advisory coverage | Whether or not the project maintainer has agreed to follow Drupal
+ Security Team procedures. |Has security advisory coverage
+|Search modules |Search for _Admin Toolbar_, a module that will be covered in detail later.
+ Alternatively, you can also leave the field blank if you are not sure which module to search for.
+ |Admin Toolbar
+|Sort by |Order your search results by criteria like _Most installed_ (popular modules that many
+ sites use) or _Last release_ (date of latest version released). |Most installed
+|================================
++
+--
+// Modul-Suchfeld auf https://www.drupal.org/project/project_module.
+image:images/extend-module-find_module_finder.png["Filter auf der Modul-Suchseite auf _Drupal.org_"]]
+--
+
+. Klicken Sie auf _Search_. Die Suchergebnisse werden angezeigt.
++
+--
+// Suchergebnisse auf https://www.drupal.org/project/project_module.
+image:images/extend-module-find_search_results.png["Modul-Suchergebnisseite auf _Drupal.org_"]]
+--
+
+. Um ein Modul genauer zu bewerten, klicken Sie auf dessen Titel in der Liste
+der Suchergebnisse um die Projektseite des Moduls aufzurufen.
+
+Hier sind einige Aspekte, die bei der Evaluierung von Modulen zu beachten sind:
+
+* Projektbeschreibung: Die Beschreibung des Moduls auf seiner Projektseite sollte
+klar formuliert und aussagekräftig sein. Sie sollten sich ein Bild von den
+Merkmalen und den Anforderungen des Moduls machen können.
+
+* Informationen zum Projekt: In diesem Bereich der Seite kann es Warnungen geben.
+Z .B. wenn ein Modul nicht mehr entwickelt wird oder nicht durch die
+Security-Advisory-Policy abgedeckt ist.
+
+* Projektinformationen > Gemeldete Installationen, Downloads: Hier können Sie
+sehen, wie viele Personen das jeweilige Projekt heruntergeladen haben und wie
+viele Websites das Modul verwenden. Wenn das Modul nur von einigen
+wenigen Websites verwendet wird, könnte es sich dabei um eine benutzerdefinierte
+Lösung für ein bestimmtes Problem handeln, die nicht vielen Menschen benötigt
+wird. Eine geringe Downloadzahl, könnte ein Hinweis darauf sein, das Sie das
+jeweilige Modul besser auch nicht verwenden sollten.
+
+* Maintainer: Wann war der letzte Commit
+(das letzte Mal, dass jemand das Modul aktualisiert hat)
+ oder letzte Version (neue Version)? Wenn das Projekt wenige offene
+Problemberichgte (Issues) aufweist, die schon vor längerer Zeit erstellt wurden,
+es sich um ein angemessenes Modul handeln. Wenn es für ein Modul jedoch jede
+Menge offene Problemberichte gibt oder schon lange keine Commits/Releases mehr
+veröffentlicht wurden, wäre dies ein Anhaltspunkt dafür das die Entwicklung des
+Moduls eingestellt wurde.
+
+* Problemberichte (Issues): Prüfen Sie, ob es irgendwelche offenen Fragen zum
+Modul oder potentielle Probleme mit dem Modul gibt.
+Schauen Sie sich die Statistiken an, um zu sehen, wie regelmäßig auf Fragen
+geantwortet wird.
+
+* Dokumentation, Ressourcen: Prüfen Sie, ob das Modul über eine Dokumentation
+oder ein README verfügt, die Ihnen beim
+Installieren, Konfigurieren, Evaluieren und Testen des Moduls  helfen kann.
+
+*** Übersetzt mit www.DeepL.com/Translator (kostenlose Version) ***
+
++
+--
+// Project page for Admin Toolbar module.
+image:images/extend-module-find_project_info.png["Information on the project page to look for when evaluating a module", width="100%"]
+--
+
+==== Vertiefen Sie Ihre Kenntnisse
+
+<<extend-module-install>>
+
+//===== Verwandte Konzepte
+
+==== Videos
+
+// Video von Drupalize.Me.
+video::https://www.youtube-nocookie.com/embed/G-XUuSj9xYA[title="Module finden"]
+
+//===== Zusätzliche Ressourcen
+
+
+*Mitwirkende*
+
+Geschrieben von https://www.drupal.org/u/dianalakatos[Diána Lakatos] unter
+https://pronovix.com//[Pronovix].
